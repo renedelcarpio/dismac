@@ -1,0 +1,27 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin-top: 3rem;
+}
+
+.search {
+    width: 55rem;
+    height: 3.5rem;
+    background: #f4f9f9;
+    border: 1.5px solid #272b2b;
+    padding-left: 4.5rem;
+    border-radius: 5rem;
+}
+
+.search-icon {
+    position: absolute;
+    margin-left: -50rem;
+    z-index: 1;
+}
+
+.fa-search {
+    font-size: 2rem;
+    color: #bcc8c8;
+}
