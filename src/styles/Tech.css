@@ -1,0 +1,46 @@
+.electronics-container {
+    margin: 0 auto;
+    margin-bottom: 15rem;
+    width: 90vw;
+    height: 15rem;
+}
+
+.goods-title {
+    font-size: 1.5rem;
+}
+
+.goods__image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goods-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.5rem 1.8rem #cccccc;
+
+}
+
+.cell {
+    max-height: 80%;
+}
+
+.tablet {
+    max-height: 50%;
+}
+
+.laptop {
+    max-height: 80%;
+}
+
+.headset {
+    max-height: 90%;
+}
+
+.console {
+    max-height: 80%;
+}

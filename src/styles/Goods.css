@@ -1,0 +1,50 @@
+.goods-container {
+    margin: 0 auto;
+    margin-bottom: 15rem;
+    width: 90vw;
+    height: 15rem;
+}
+
+.goods-title {
+    font-size: 1.5rem;
+}
+
+.goods__image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goods-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.5rem 1.8rem #cccccc;
+
+}
+
+.refrigerator {
+    max-height: 80%;
+}
+
+.stove {
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+    max-height: 70%;
+}
+
+.campana {
+    max-height: 100%;
+    margin-left: 1rem;
+}
+
+.wash {
+    max-height: 70%;
+}
+
+.freezer {
+    max-height: 90%;
+    margin-top: 1.5rem;
+}

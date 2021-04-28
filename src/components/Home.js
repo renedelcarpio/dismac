@@ -5,6 +5,9 @@ import '../styles/Home.css'
 import Header from './Header'
 import ImageSlider from './ImageSlider'
 import Warranty from './Warranty'
+import Goods from './Goods'
+import Electronics from './Electronics'
+import Tech from './Tech'
 
 function Home() {
     return (
@@ -16,6 +19,9 @@ function Home() {
             </div>
             <ImageSlider slides={SliderData} />
             <Warranty/>
+            <Goods/>
+            <Electronics/>
+            <Tech/>
         </div>
     )
 }
