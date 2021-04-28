@@ -4,7 +4,9 @@ The goal is to re design the landing page using React Js and Css.
 
 ## How to start 
 
-The first thing to do is to clone de project. In the project directory, you can run:
+The first thing to do is to clone de project. 
+
+In the project directory, you can run:
 
 ### `sudo apt install nodejs`
 
