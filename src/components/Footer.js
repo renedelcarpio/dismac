@@ -13,7 +13,7 @@ function Footer() {
                 <div className='social-media'>
                     <i className="fab fa-facebook-square social"></i>
                     <i className="fab fa-instagram-square social"></i>
-                    <i class="fab fa-youtube-square social"></i>
+                    <i className="fab fa-youtube-square social"></i>
                 </div>
             </div>
             <div className='information'>

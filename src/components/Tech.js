@@ -10,25 +10,30 @@ import Console from '../images/console.png'
 
 function Tech() {
     return (
-        <div className='electronics-container'>
+        <div className='goods-container'>
             <div className='title-container goods-title'>
-                <h1>Telefonía y tecnología</h1>
+                <h1>Telefonía y Tecnología</h1>
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='cell' src={ Cell } alt="Refrigerador"/>
+                    <img className='cell image' src={ Cell } alt="Celular"/>
+                    <h3 className='image-name'>Celulares</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='tablet' src={ Tablet } alt="Refrigerador"/>
+                    <img className='tablet image' src={ Tablet } alt="Tablet"/>
+                    <h3 className='image-name'>Tablets</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='laptop' src={ Laptop } alt="Refrigerador"/>
+                    <img className='laptop image' src={ Laptop } alt="Computadora"/>
+                    <h3 className='image-name'>Computadoras</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='headset' src={ Headset } alt="Refrigerador"/>
+                    <img className='headset image' src={ Headset } alt="Audífonos"/>
+                    <h3 className='image-name'>Accesorios</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='console' src={ Console } alt="Refrigerador"/>
+                    <img className='console image' src={ Console } alt="Consola"/>
+                    <h3 className='image-name'>Consolas</h3>
                 </div>
             </div>
         </div>

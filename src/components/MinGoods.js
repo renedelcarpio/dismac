@@ -10,25 +10,30 @@ import Scraper from '../images/scraper.png'
 
 function MinGoods() {
     return (
-        <div className='electronics-container'>
+        <div className='goods-container'>
             <div className='title-container goods-title'>
                 <h1>Electro Menor</h1>
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='vaccum' src={ Vaccum } alt="Refrigerador"/>
+                    <img className='vaccum image' src={ Vaccum } alt="Aspiradora"/>
+                    <h3 className='image-name'>Aspiradoras</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='blender' src={ Blender } alt="Refrigerador"/>
+                    <img className='blender image' src={ Blender } alt="Licuadora"/>
+                    <h3 className='image-name'>Electrodomésticos</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='water' src={ Water } alt="Refrigerador"/>
+                    <img className='water image' src={ Water } alt="Dispensador"/>
+                    <h3 className='image-name'>Dispensadores</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='sewing' src={ Sewing } alt="Refrigerador"/>
+                    <img className='sewing image' src={ Sewing } alt="Máquina de coser"/>
+                    <h3 className='image-name'>Máquinas de coser</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='scraper' src={ Scraper } alt="Refrigerador"/>
+                    <img className='scraper image' src={ Scraper } alt="Rasuradora"/>
+                    <h3 className='image-name'>Rasuradoras</h3>
                 </div>
             </div>
         </div>

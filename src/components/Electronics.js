@@ -10,25 +10,30 @@ import Security from '../images/security.png'
 
 function Electronics() {
     return (
-        <div className='electronics-container'>
+        <div className='goods-container'>
             <div className='title-container goods-title'>
                 <h1>Electrónica</h1>
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='tv' src={ Tv } alt="Refrigerador"/>
+                    <img className='tv image' src={ Tv } alt="Televisor"/>
+                    <h3 className='image-name'>Tv & Video</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='home-theater' src={ HomeTheater } alt="Refrigerador"/>
+                    <img className='home-theater image' src={ HomeTheater } alt="Home Theater"/>
+                    <h3 className='image-name'>Home Theaters</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='audio' src={ Audio } alt="Refrigerador"/>
+                    <img className='audio image' src={ Audio } alt="Audio"/>
+                    <h3 className='image-name'>Audio</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='camara' src={ Camara } alt="Refrigerador"/>
+                    <img className='camara image' src={ Camara } alt="Cámara fotográfica"/>
+                    <h3 className='image-name'>Fotografía</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='security' src={ Security } alt="Refrigerador"/>
+                    <img className='security image' src={ Security } alt="Cámara de seguridad"/>
+                    <h3 className='image-name'>Seguridad</h3>
                 </div>
             </div>
         </div>

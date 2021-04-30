@@ -10,25 +10,30 @@ import Desk from '../images/desk.png'
 
 function Furniture() {
     return (
-        <div className='electronics-container'>
+        <div className='goods-container'>
             <div className='title-container goods-title'>
                 <h1>Muebles</h1>
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='bed' src={ Bed } alt="Refrigerador"/>
+                    <img className='bed image' src={ Bed } alt="Cama"/>
+                    <h3 className='image-name'>Dormitorio</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='armchair' src={ Armchair } alt="Refrigerador"/>
+                    <img className='armchair image' src={ Armchair } alt="Sillón"/>
+                    <h3 className='image-name'>Sala de Estar</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='table' src={ Table } alt="Refrigerador"/>
+                    <img className='table image' src={ Table } alt="Mesa de comedor"/>
+                    <h3 className='image-name'>Comedor</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='kitchen-furniture' src={ KitchenFurniture } alt="Refrigerador"/>
+                    <img className='kitchen-furniture image' src={ KitchenFurniture } alt="Mueble de cocina"/>
+                    <h3 className='image-name'>Muebles de Cocina</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='desk' src={ Desk } alt="Refrigerador"/>
+                    <img className='desk image' src={ Desk } alt="Escritorio"/>
+                    <h3 className='image-name'>Escritorio</h3>
                 </div>
             </div>
         </div>
