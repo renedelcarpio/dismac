@@ -20,19 +20,19 @@ function Electronics() {
                     <h3 className='image-name'>Tv & Video</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='home-theater image' src={ HomeTheater } alt="Home Theater"/>
+                    <img loading='lazy' className='home-theater image' src={ HomeTheater } alt="Home Theater"/>
                     <h3 className='image-name'>Home Theaters</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='audio image' src={ Audio } alt="Audio"/>
+                    <img loading='lazy' className='audio image' src={ Audio } alt="Audio"/>
                     <h3 className='image-name'>Audio</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='camara image' src={ Camara } alt="Cámara fotográfica"/>
+                    <img loading='lazy' className='camara image' src={ Camara } alt="Cámara fotográfica"/>
                     <h3 className='image-name'>Fotografía</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='security image' src={ Security } alt="Cámara de seguridad"/>
+                    <img loading='lazy' className='security image' src={ Security } alt="Cámara de seguridad"/>
                     <h3 className='image-name'>Seguridad</h3>
                 </div>
             </div>

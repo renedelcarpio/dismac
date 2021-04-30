@@ -16,23 +16,23 @@ function HomeStuff() {
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='pans image' src={ Pans } alt="Ollas"/>
+                    <img loading='lazy' className='pans image' src={ Pans } alt="Ollas"/>
                     <h3 className='image-name'>Menaje de Cocina</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='crockery image' src={ Crockery } alt="Vajilla"/>
+                    <img loading='lazy' className='crockery image' src={ Crockery } alt="Vajilla"/>
                     <h3 className='image-name'>Menaje de mesa</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='cup image' src={ Cup } alt="Copas"/>
+                    <img loading='lazy' className='cup image' src={ Cup } alt="Copas"/>
                     <h3 className='image-name'>Vasos y Copas</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='knives image' src={ Knives } alt="Cuchillos"/>
+                    <img loading='lazy' className='knives image' src={ Knives } alt="Cuchillos"/>
                     <h3 className='image-name'>Cuchillería</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='grill image' src={ Grill } alt="Churrasquera"/>
+                    <img loading='lazy' className='grill image' src={ Grill } alt="Churrasquera"/>
                     <h3 className='image-name'>Exterior</h3>
                 </div>
             </div>

@@ -16,23 +16,23 @@ function Ac() {
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='air image' src={ Air } alt="Aire acondicionado split"/>
+                    <img loading='lazy' className='air image' src={ Air } alt="Aire acondicionado split"/>
                     <h3 className='image-name'>Climatización</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='roof-ac image' src={ RoofAc } alt="Aire acondicionado comercial"/>
+                    <img loading='lazy' className='roof-ac image' src={ RoofAc } alt="Aire acondicionado comercial"/>
                     <h3 className='image-name'>Comercial</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='calefon image' src={ Calefon } alt="Calefón"/>
+                    <img loading='lazy' className='calefon image' src={ Calefon } alt="Calefón"/>
                     <h3 className='image-name'>Calefones</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='temp-tank image' src={ TempTank } alt="Termo tanque"/>
+                    <img loading='lazy' className='temp-tank image' src={ TempTank } alt="Termo tanque"/>
                     <h3 className='image-name'>Termo Tanques</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='fan image' src={ Fan } alt="Ventilador"/>
+                    <img loading='lazy' className='fan image' src={ Fan } alt="Ventilador"/>
                     <h3 className='image-name'>Ventiladores</h3>
                 </div>
             </div>

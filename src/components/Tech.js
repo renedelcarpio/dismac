@@ -16,23 +16,23 @@ function Tech() {
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='cell image' src={ Cell } alt="Celular"/>
+                    <img loading='lazy' className='cell image' src={ Cell } alt="Celular"/>
                     <h3 className='image-name'>Celulares</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='tablet image' src={ Tablet } alt="Tablet"/>
+                    <img loading='lazy' className='tablet image' src={ Tablet } alt="Tablet"/>
                     <h3 className='image-name'>Tablets</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='laptop image' src={ Laptop } alt="Computadora"/>
+                    <img loading='lazy' className='laptop image' src={ Laptop } alt="Computadora"/>
                     <h3 className='image-name'>Computadoras</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='headset image' src={ Headset } alt="Audífonos"/>
+                    <img loading='lazy' className='headset image' src={ Headset } alt="Audífonos"/>
                     <h3 className='image-name'>Accesorios</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='console image' src={ Console } alt="Consola"/>
+                    <img loading='lazy' className='console image' src={ Console } alt="Consola"/>
                     <h3 className='image-name'>Consolas</h3>
                 </div>
             </div>

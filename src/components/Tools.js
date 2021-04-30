@@ -16,23 +16,23 @@ function Tools() {
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='chainsaw image' src={ ChainSaw } alt="Cortador de arbustos"/>
+                    <img loading='lazy' className='chainsaw image' src={ ChainSaw } alt="Cortador de arbustos"/>
                     <h3 className='image-name'>Cortadores</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='blower image' src={ Blower } alt="Soplador"/>
+                    <img loading='lazy' className='blower image' src={ Blower } alt="Soplador"/>
                     <h3 className='image-name'>Sopladoras</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='drill image' src={ Drill } alt="Taladro"/>
+                    <img loading='lazy' className='drill image' src={ Drill } alt="Taladro"/>
                     <h3 className='image-name'>Taladros</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='hand-tools image' src={ HandTools } alt="Herramientas"/>
+                    <img loading='lazy' className='hand-tools image' src={ HandTools } alt="Herramientas"/>
                     <h3 className='image-name'>Herramientas</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='toolbox image' src={ Toolbox } alt="Caja de herramientas"/>
+                    <img loading='lazy' className='toolbox image' src={ Toolbox } alt="Caja de herramientas"/>
                     <h3 className='image-name'>Cajas</h3>
                 </div>
             </div>

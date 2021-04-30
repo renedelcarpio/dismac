@@ -16,23 +16,23 @@ function Furniture() {
             </div>
             <div className='goods__image-container'>
                 <div className='goods-image'>
-                    <img className='bed image' src={ Bed } alt="Cama"/>
+                    <img loading='lazy' className='bed image' src={ Bed } alt="Cama"/>
                     <h3 className='image-name'>Dormitorio</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='armchair image' src={ Armchair } alt="Sillón"/>
+                    <img loading='lazy' className='armchair image' src={ Armchair } alt="Sillón"/>
                     <h3 className='image-name'>Sala de Estar</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='table image' src={ Table } alt="Mesa de comedor"/>
+                    <img loading='lazy' className='table image' src={ Table } alt="Mesa de comedor"/>
                     <h3 className='image-name'>Comedor</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='kitchen-furniture image' src={ KitchenFurniture } alt="Mueble de cocina"/>
+                    <img loading='lazy' className='kitchen-furniture image' src={ KitchenFurniture } alt="Mueble de cocina"/>
                     <h3 className='image-name'>Muebles de Cocina</h3>
                 </div>
                 <div className='goods-image'>
-                    <img className='desk image' src={ Desk } alt="Escritorio"/>
+                    <img loading='lazy' className='desk image' src={ Desk } alt="Escritorio"/>
                     <h3 className='image-name'>Escritorio</h3>
                 </div>
             </div>
