@@ -26,3 +26,12 @@
     color: #bcc8c8;
 }
 
+@media screen and (max-width: 550px) {
+    .search {
+        width: 30rem;
+    }
+
+    .search-icon {
+        margin-left: -25rem;
+    }
+}

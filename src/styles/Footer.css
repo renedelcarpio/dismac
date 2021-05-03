@@ -15,7 +15,6 @@
 
 .logo {
     width: 70%;
-    
 }
 
 .social-media {
@@ -41,10 +40,14 @@
     font-size: 1.2rem;
 }
 
-.information h4 {
-}
-
 .contact {
     font-size: 1.2rem;
     margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 950px) {
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

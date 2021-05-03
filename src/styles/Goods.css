@@ -46,6 +46,28 @@
     border-radius: 2rem;
 }
 
+@media screen and (max-width: 950px) {
+    .goods-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 35rem;
+    }
+
+    .goods-image {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .goods-container {
+        height: 55rem;
+    }
+}
+
+
+
+
 .refrigerator {
     margin-top: 1.5rem;
     max-height: 80%;

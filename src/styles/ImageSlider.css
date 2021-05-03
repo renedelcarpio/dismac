@@ -1,7 +1,9 @@
 .slider {
     position: relative;
     height: 80vh;
+    width: 100vw;
     display: flex;
+    justify-self: center;
     justify-content: center;
     align-items: center;
 }
@@ -15,7 +17,7 @@
 .right-arrow {
     position: absolute;
     top: 50%;
-    right: 3.2rem;
+    right: 10%;
     font-size: 3rem;
     color: #272b2b;
     z-index: 10;
@@ -26,7 +28,7 @@
 .left-arrow {
     position: absolute;
     top: 50%;
-    left: 3.2rem;
+    left: 10%;
     font-size: 3rem;
     color: #272b2b;
     z-index: 10;
@@ -40,7 +42,31 @@
 }
 
 .slide.active {
+    display: flex;
+    justify-content: center;
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+}
+
+@media screen and (max-width: 950px) {
+    .image-slider {
+        max-width: 60%;
+        max-height: 30rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slider {
+        width: 100vw;
+    }
+
+    .right-arrow {
+        right: 3%;
+    }
+
+    .left-arrow {
+        left: 3%;
+    }
 }

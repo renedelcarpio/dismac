@@ -1,7 +1,8 @@
 .warranty-container {
     margin: 0 auto;
     margin-bottom: 5rem;
-    width: 90vw;
+    min-width: 80vw;
+    max-width: 80%;
     height: 18rem;
     color: #272b2b;
     background-color: #ebebeb;
@@ -29,4 +30,36 @@
     justify-content: center;
     flex-wrap: wrap;
     font-weight: 500;
+}
+
+@media screen and (max-width: 950px) {
+    .warranty-container {
+        min-width: 90vw;
+    }
+
+    .warranty-item {
+        font-size: 1rem;
+    }
+
+    .warranty-icon {
+        font-size: 3.2rem;
+    }
+
+    .list li {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .warranty-container {
+        min-width: 100vw;
+    }
+
+    .list li {
+        margin: 0;
+    }
+
+    .info-container {
+        margin-top: 25rem;
+    }
 }

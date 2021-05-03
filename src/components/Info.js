@@ -4,7 +4,7 @@ import '../styles/Info.css'
 
 function Info() {
     return (
-        <div className='warranty-container'>
+        <div className='warranty-container info-container'>
             <div className='title-container'>
                 <h1 className='warranty-title'>Más Información</h1>
             </div>
